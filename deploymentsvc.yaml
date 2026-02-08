@@ -13,7 +13,7 @@ spec:
         app: hellodocker-deployment
     spec:
       containers:
-      - name: hellodocker-deployment
+      - name: hellodocker-container
         image: soul433/hellodocker
         imagePullPolicy: IfNotPresent
         ports:
